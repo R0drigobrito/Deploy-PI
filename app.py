@@ -64,7 +64,7 @@ def upload_file():
                     date_reference = str(worksheet.cell(row=13, column=col).value)[:7]
 
                 if worksheet.cell(row=row, column=col).value == "P" or worksheet.cell(row=row, column=col).value == "FJ":
-                    student_status = "P"n
+                    student_status = "P"
                 else:
                     student_status = "F"
 
